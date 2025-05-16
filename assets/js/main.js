@@ -305,37 +305,37 @@ function displayContactForm() {
             <div class="col-md-6">
                 <input id="nameSignup" onkeyup="validate()" type="text" class="form-control" placeholder="Enter Your Name">
                 <div id="nameRule" class="alert alert-danger w-100 mt-2 d-none">
-                    Special characters and numbers not allowed!!
+                    Special characters and numbers not allowed 
                 </div>
             </div>
             <div class="col-md-6">
                 <input id="emailSignup" onkeyup="validate()" type="email" class="form-control " placeholder="Enter Your Email">
                 <div id="emailRule" class="alert alert-danger w-100 mt-2 d-none">
-                    Email not valid *exemple@yyy.zzz* !!
+                    Email not valid
                 </div>
             </div>
             <div class="col-md-6">
                 <input id="phoneSignup" onkeyup="validate()" type="text" class="form-control " placeholder="Enter Your Phone">
                 <div id="phoneRule" class="alert alert-danger w-100 mt-2 d-none">
-                    Enter valid Phone Number!!
+                    Enter valid Phone Number
                 </div>
             </div>
             <div class="col-md-6">
                 <input id="ageSignup" onkeyup="validate()" type="number" class="form-control " placeholder="Enter Your Age">
                 <div id="ageRule" class="alert alert-danger w-100 mt-2 d-none">
-                    Enter valid age!!
+                    Enter valid age
                 </div>
             </div>
             <div class="col-md-6">
                 <input  id="passSignup" onkeyup="validate()" type="password" class="form-control " placeholder="Enter Your Password">
                 <div id="passRule" class="alert alert-danger w-100 mt-2 d-none">
-                    Enter valid password *Minimum eight characters, at least one letter and one number:* !!
+                    Enter valid password 
                 </div>
             </div>
             <div class="col-md-6">
                 <input  id="rePassSignup" onkeyup="validate()" type="password" class="form-control " placeholder="Please Re-enter Your Password">
                 <div id="rePassRule" class="alert alert-danger w-100 mt-2 d-none">
-                    Passwords don't match!! 
+                    Passwords don't match
                 </div>
             </div>
         </div>
