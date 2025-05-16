@@ -71,8 +71,7 @@ function displayMeals(data) {
     }
     rowData.innerHTML = box;
 }
-// For Search Section
-// 1. Displaying Search Form 
+//  Displaying Search Form 
 function displaySearchForm() {
     searchSection.innerHTML = `
     <div class="row py-4 ">
@@ -124,7 +123,7 @@ async function getCategory() {
     displayCategories(response.categories);
     $(".inner-loading-screen").fadeOut(300);
 }
-// 2. Display all Categories
+//  Display all Categories
 function displayCategories(data) {
     let box = "";
     for (let i = 0; i < data.length; i++) {
@@ -178,8 +177,7 @@ function displayArea(data) {
     }
     rowData.innerHTML = box;
 }
-// For Ingredients Section
-// 1. Get Ingredients From API
+// Get Ingredients From API
 async function getIngredient() {
     rowData.innerHTML = "";
     $(".inner-loading-screen").fadeIn(300);
@@ -213,8 +211,6 @@ function displayIngredients(data) {
     }
     rowData.innerHTML = box;
 }
-
-// For Meals Section
 // Get Meals For Categories From API
 async function getCategoryMeals(catId) {
     rowData.innerHTML = "";
