@@ -1,0 +1,51 @@
+/* Global */
+:root {
+    --white-color: #f9f6f6;
+    --black-color: #0D0D0D;
+}
+body{
+    background-color: var(--black-color);
+    color: white !important;
+}
+
+i{
+    cursor: pointer;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: var(--black-color);
+    display: flex;
+}
+.horizontal-nav{
+    z-index: 99;
+}
+.link-nav{
+    background-color: var(--black-color);
+}
+.logo{
+    width: 50px;
+}
+.form-control::placeholder {
+    color: grey;
+}
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+.meal:hover .meal-layer{
+    top: 0;
+}
+.alert{
+    width: fit-content;
+}
