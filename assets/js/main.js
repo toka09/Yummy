@@ -84,7 +84,7 @@ function displaySearchForm() {
     </div>`;
     rowData.innerHTML = "";
 }
-// 2. Search By Name
+// Search By Name
 async function searchByName(term) {
     closeNavbar();
     rowData.innerHTML = "";
@@ -96,7 +96,7 @@ async function searchByName(term) {
     response.meals ? displayMeals(response.meals) : displayMeals([]);
     $(".inner-loading-screen").fadeOut(300);
 }
-// 3. Search By First Letter
+//Search By First Letter
 async function searchByFirstLetter(term) {
     closeNavbar();
     rowData.innerHTML = "";
@@ -109,9 +109,7 @@ async function searchByFirstLetter(term) {
     response.meals ? displayMeals(response.meals) : displayMeals([]);
     $(".inner-loading-screen").fadeOut(300);
 }
-
-// For Category Section
-// 1. Get Category From API
+// Get Category From API
 async function getCategory() {
     rowData.innerHTML = "";
     $(".inner-loading-screen").fadeIn(300);
@@ -123,7 +121,7 @@ async function getCategory() {
     displayCategories(response.categories);
     $(".inner-loading-screen").fadeOut(300);
 }
-//  Display all Categories
+// Display all Categories
 function displayCategories(data) {
     let box = "";
     for (let i = 0; i < data.length; i++) {
@@ -148,8 +146,7 @@ function displayCategories(data) {
     }
     rowData.innerHTML = box;
 }
-// For Area Section
-// 1. Get Areas From API
+// Get Areas From API
 async function getArea() {
     rowData.innerHTML = "";
     $(".inner-loading-screen").fadeIn(300);
@@ -162,7 +159,7 @@ async function getArea() {
     displayArea(respone.meals);
     $(".inner-loading-screen").fadeOut(300);
 }
-// 2. Display Areas
+// Display Areas
 function displayArea(data) {
     let box = "";
     for (let i = 0; i < data.length; i++) {
@@ -190,7 +187,7 @@ async function getIngredient() {
     displayIngredients(respone.meals.slice(0, 20));
     $(".inner-loading-screen").fadeOut(300);
 }
-// 2. Display Ingredients
+// Display Ingredients
 function displayIngredients(data) {
     let box = "";
     for (let i = 0; i < data.length; i++) {
@@ -300,7 +297,6 @@ function displayDetails(meal) {
                 </div>`;
     rowData.innerHTML = box;
 }
-// Meals JS Ends
 // For Contact Section
 function displayContactForm() {
     rowData.innerHTML = `<div class="contact min-vh-100 d-flex justify-content-center align-items-center">
