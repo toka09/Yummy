@@ -1,10 +1,5 @@
-/* Global */
-:root {
-    --white-color: #f9f6f6;
-    --black-color: #0D0D0D;
-}
 body{
-    background-color: var(--black-color);
+    background-color: #0D0D0D;
     color: white !important;
 }
 
@@ -21,14 +16,14 @@ i{
 .inner-loading-screen{
     position: absolute;
     z-index: 9;
-    background-color: var(--black-color);
+    background-color: #0D0D0D;
     display: flex;
 }
 .horizontal-nav{
     z-index: 99;
 }
 .link-nav{
-    background-color: var(--black-color);
+    background-color: #0D0D0D;
 }
 .logo{
     width: 50px;
