@@ -3,7 +3,7 @@
 Yummy is a responsive and interactive food recipe web application that allows users to browse, search, and view meals from an external API. The application is built using HTML, CSS, JavaScript, Bootstrap, and jQuery.
 
 ## 🔗 Live Demo
-
+[Visit the Live Website]((https://toka09.github.io/Yummy/))
 
 ## 🚀 Features
 
